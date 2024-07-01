@@ -1,0 +1,61 @@
+:root{
+  --main:#004d6c;
+  --text:#ffffff;
+  --secondary-text:#f0f0f0;
+  --accent:#ff6f61;
+  --heading-mobile:32px;
+  --heading-desktop:48px;
+  --sub-heading-mobile:24px;
+  --sub-heading-desktop:36px;
+  --text-mobile:16px;
+  --text-desktop:18px;
+  --footer-text-mobile:14px;
+  --footer-text-desktop:16px;
+}
+body{
+  margin:0;
+  padding:0;
+  background-image:url('https://ucarecdn.com/5c22d195-ea17-45e1-b022-a887801b19c5/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.contact_form{
+  width:70vw;
+}
+.donate_container{
+  width:90vw;
+}
+.gallery_container{
+  width:80vw;
+}
+.contact_container{
+  width:70vw;
+}
+.copyright{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.footer{
+  position:absolute;
+  bottom:-42%;
+  width:100vw;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
